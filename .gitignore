@@ -1,12 +1,15 @@
 # Node dependencies
 node_modules/
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
 # Local environment configs (Contains secrets - DO NOT COMMIT)
 .env
 backend/.env
+frontend/.env
+
+# SQLite databases
+backend/restaurant.db
+*.db
 
 # Build outputs
 dist/
