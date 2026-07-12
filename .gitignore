@@ -1,0 +1,26 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local environment configs (Contains secrets - DO NOT COMMIT)
+.env
+backend/.env
+
+# Build outputs
+dist/
+build/
+out/
+
+# Log files
+*.log
+.system_generated/
+tasks/
+logs/
+
+# Local binaries and temp files
+ngrok.exe
+.DS_Store
+Thumbs.db
+.agents/
